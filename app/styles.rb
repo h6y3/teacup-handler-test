@@ -13,8 +13,8 @@ Teacup::Stylesheet.new(:my_controller) do
     top:    10,
     width:  200,
     height: 50,
-  landscape: {
-      width: 360  # make it wide in landscape view                                                                                                                       
-  },
+    landscape: {
+      width: 360  # make it wide in landscape view
+    },
     setup: "Hello world"
 end
