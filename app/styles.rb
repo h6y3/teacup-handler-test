@@ -8,6 +8,7 @@ Teacup::Stylesheet.new(:my_controller) do
     landscape: true
 
   style :field,
+    borderStyle: UITextBorderStyleRoundedRect,
     left:   10,
     top:    10,
     width:  200,
