@@ -1,7 +1,7 @@
 Teacup::Stylesheet.new(:my_controller) do
 
-  Teacup.handler UITextField, :setup { |view, x|
-    puts "Calling setup with arguments #{view} and #{x}"
+  Teacup.handler UITextField, :setup { |text|
+    puts "Calling setup with arguments #{self} and #{text.inspect}"
   }
 
   style :root,
